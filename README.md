@@ -4,6 +4,7 @@
 ![](https://img.shields.io/badge/ChatGPT-Corpus%2C%20Detector-blue)
 
 Purpose of the project is to:
+
 a. Find the Golden ratio wrt to the existing QA corpus.
 b. Plagiarism detection(also detects ChatGPT generated content).
 
