@@ -29,7 +29,6 @@ We are researchers from Illinois Institute of Technology working on various Natu
 
 |   |   |
 |:-:|:-:|
-
 | [Haoran Wang](https://github.com/wang2226/) | [Aman Rangapur](https://github.com/aman-17/) |
 |<img src="https://avatars.githubusercontent.com/u/21370476?v=4" alt="" width="40"/>|<img src="https://avatars.githubusercontent.com/u/44740048?v=4" alt="" width="40"/>|
 
