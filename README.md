@@ -6,6 +6,7 @@
 Purpose of the project is to:
 
 a. Find the Golden ratio wrt to the existing QA corpus.
+
 b. Plagiarism detection(also detects ChatGPT generated content).
 
 
