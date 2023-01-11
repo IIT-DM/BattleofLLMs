@@ -1,4 +1,4 @@
-ChatGPT-Benchmarks
+## ChatGPT-Benchmarks
 
 ![](https://img.shields.io/badge/Languages-%20English-red) 
 ![](https://img.shields.io/badge/ChatGPT-Corpus%2C%20Detector-blue)
@@ -26,6 +26,9 @@ Welcome to our project on GitHub! We are thrilled to have you here, reading thro
 ### About Us
 
 We are researchers from Illinois Institute of Technology working on various Natural Language Programming projects. Our team for these projects consists of PhD and Master students. <br>
+
+|   |   |
+|:-:|:-:|
 
 | [Haoran Wang](https://github.com/wang2226/) | [Aman Rangapur](https://github.com/aman-17/) |
 |<img src="https://avatars.githubusercontent.com/u/21370476?v=4" alt="" width="40"/>|<img src="https://avatars.githubusercontent.com/u/44740048?v=4" alt="" width="40"/>|
