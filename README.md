@@ -22,7 +22,8 @@ b. Plagiarism detection(also detects ChatGPT generated content).
 | Release               | Dates      |
 |-----------------------|------------|
 | QA Corpus Comparison| 12/15/2022 to now(working) |
-| Preprint | Posting within a week|
+| Golden ratio | Posting within a week |
+| Preprint | Posting within a week |
 |...|...|
 
 
