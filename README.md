@@ -30,6 +30,8 @@ b. Plagiarism detection(also detects ChatGPT generated content).
 ## ChatGPT Crawler
 This script automated the process of sending a query to ChatGPT and saving the response. Since the release of the Dec 15th version, ChatGPT has imposed an hourly limit per account. To solve this, the script took multiple accounts (it was found that the minimum is 4), rotated and exhausted the hourly limit of each account. In order to register an OpenAI account, an email and a phone number were required for verification. Note that it had to be a real phone number. Bummer! We tried to register accounts with Google Voice virtual phone numbers, but OpenAI recognized them as virtual numbers and would not let me register.  Check out installation guide [here](./chatGPT-crawler/README.md).
 
+
+
 ---
 
 ### About Us
