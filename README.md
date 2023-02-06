@@ -21,10 +21,11 @@ b. Plagiarism detection(also detects ChatGPT generated content).
 
 | Release               | Dates      |
 |-----------------------|------------|
-| ChatGPT API for bulk responses| Published |
-| QA Corpus Comparison| Published(More on the way) |
-| Golden ratio w.r.t to QA corpus| Posting within a week |
-| Preprint | Posting within a week |
+| ChatGPT API for bulk responses. | Published |
+| QA Corpus Comparison. | Published(More corpus on the way) |
+| Golden ratio & NLI w.r.t to QA corpus. | Published(More on corpus corpus the way) |
+| Plagiarism Detection. | Posting within a week
+| Preprint. | Posting within a week |
 |...|...|
 
 ## ChatGPT API
