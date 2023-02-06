@@ -1,4 +1,4 @@
-# ChatGPT Crawler
+# ChatGPT API
 
 This script automates the process sending a query to ChatGPT and saves the response.
 Since the release of Dec 15th version, ChatGPT has imposed hourly limit per account.
