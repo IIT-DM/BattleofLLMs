@@ -1,4 +1,4 @@
-## ChatGPT-Benchmarks
+## ChatGPT-Crawler
 
 ![](https://img.shields.io/badge/Languages-%20English-red) 
 ![](https://img.shields.io/badge/ChatGPT-Corpus%2C%20Detector-blue)
@@ -21,13 +21,13 @@ b. Plagiarism detection(also detects ChatGPT generated content).
 
 | Release               | Dates      |
 |-----------------------|------------|
-| ChatGPT Crawler| Published |
+| ChatGPT API for bulk responses| Published |
 | QA Corpus Comparison| Published(More on the way) |
 | Golden ratio w.r.t to QA corpus| Posting within a week |
 | Preprint | Posting within a week |
 |...|...|
 
-## ChatGPT Crawler
+## ChatGPT API
 This script automated the process of sending a query to ChatGPT and saving the response. Since the release of the Dec 15th version, ChatGPT has imposed an hourly limit per account. To solve this, the script took multiple accounts (it was found that the minimum is 4), rotated and exhausted the hourly limit of each account. In order to register an OpenAI account, an email and a phone number were required for verification. Note that it had to be a real phone number. Bummer! We tried to register accounts with Google Voice virtual phone numbers, but OpenAI recognized them as virtual numbers and would not let me register.  Check out installation guide [here](./chatGPT-crawler/README.md).
 
 
