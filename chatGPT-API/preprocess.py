@@ -31,7 +31,6 @@ with open("./input_raw/valid_split.jsonl") as f:
 
     df_valid = pd.DataFrame(list(zip(context_id, id, context, response, response_label, type_label)), columns=[
         "context_id", "id", "context", "response", "response_label", "type_label"])
-    # print(df_valid)
 
 
 with open("./input_raw/test_split.jsonl") as f:
@@ -48,32 +47,12 @@ with open("./input_raw/test_split.jsonl") as f:
 
     df_test = pd.DataFrame(list(zip(context_id, id, context, response, response_label, type_label)), columns=[
         "context_id", "id", "context", "response", "response_label", "type_label"])
-    # print(df_test)
 
 
 df = pd.concat([df_valid, df_test])
-# print(df.columns)
-
 df = df.loc[df["response_label"] == "SUPPORTS"]
-# print(df)
-
 df["query"] = df["context"].astype(str) + " " + df["response"].astype(str)
-# df["query"] = df["context"]
 df = df.astype(str).drop_duplicates(["query"]).reset_index(drop=True)
-
-# print(df)
-# print(df["response_label"].describe())
 print(df["query"])
-
 df.to_pickle(f"./input_processed/{DATASET}.pkl")
 
-
-# num_chunks = ceil(df.shape[0] / CHUNK)
-# df_list = np.array_split(df, num_chunks)
-
-# total = 0
-# for i in range(len(df_list)):
-#     total = total + len(df_list[i])
-#     df_list[i].to_pickle(f"./preprocess/{i}.pkl")
-
-# print(f"Total: {total}")
