@@ -7,11 +7,8 @@
 Welcome to our project on GitHub! We are thrilled to have you here, reading through our code and documentation. We hope that you find our project interesting and useful. We have put in a lot of effort to make the code readable, well-organized, and easy to understand. We believe that open-source projects like ours are an excellent way to share knowledge, build communities, and inspire new ideas. We welcome your contributions, feedback, and ideas. Thank you for your support and we look forward to your participation in this project.<br>
 
 
-Purpose of the project is to:
+#### Purpose of the project is to perform adversarial attacks on ChatGPT.
 
-a. Find the Golden ratio wrt to the existing QA corpus.
-
-b. Plagiarism detection(also detects ChatGPT generated content).
 
 
 
