@@ -7,7 +7,7 @@
 Welcome to our project on GitHub! We are thrilled to have you here, reading through our code and documentation. We hope that you find our project interesting and useful. We have put in a lot of effort to make the code readable, well-organized, and easy to understand. We believe that open-source projects like ours are an excellent way to share knowledge, build communities, and inspire new ideas. We welcome your contributions, feedback, and ideas. Thank you for your support and we look forward to your participation in this project.<br>
 
 
-#### Purpose of the project is to perform adversarial attacks on ChatGPT.
+#### Purpose of the project is to evaluate the responses of ChatGPT.
 
 
 
@@ -21,7 +21,7 @@ Welcome to our project on GitHub! We are thrilled to have you here, reading thro
 | ChatGPT API for bulk responses. | Published |
 | QA Corpus Comparison. | Published(More corpus on the way) |
 | Golden ratio & NLI w.r.t to QA corpus. | Published(More on corpus corpus the way) |
-| Plagiarism Detection. | Posting within a week
+| Evaluation scores | Published |
 | Preprint. | Posting within a week |
 |...|...|
 
