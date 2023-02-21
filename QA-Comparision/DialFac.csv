@@ -1,4 +1,4 @@
-,Unnamed: 0.1,Unnamed: 0,context,response,chatgpt_response,BERT similarity,NLI Label
+,Unnamed: 0.1,Unnamed: 0,text,response,chatgpt_response,BERT similarity,NLI Label
 0,0,1,I like to bake in my spare time. Do you?,"It takes some practice to make. Because the heat slowly is transferred from the outside to the inside, it's hard to tell if they are cooked all the way through sometimes.","As a language model, I do not have personal preferences or the ability to bake. However, I can provide information and tips on baking if you would like. For example, you can use a toothpick or cake tester to check if your baked goods are fully cooked. If it comes out clean, the item is likely done. You can also check the internal temperature of your baked goods with a thermometer to ensure they have reached the proper temperature for safe consumption.
 
 ", 0.82%,contradiction

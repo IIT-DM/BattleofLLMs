@@ -6,16 +6,16 @@ import itertools
 import pyter
 
 
-df = pd.read_csv('./QA-Comparision/COQA.csv')
-df["answer_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["answer"].astype(str)
-df["chatgpt_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["chatgpt_response"].astype(str)
-answer_prompt = []
-for i in df['answer_prompt']:
-    answer_prompt.append(i)
+df = pd.read_csv('./QA-Comparision/DialFac.csv')
+# df["answer_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["response"].astype(str)
+# df["chatgpt_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["chatgpt_response"].astype(str)
+# answer_prompt = []
+# for i in df['answer_prompt']:
+#     answer_prompt.append(i)
 
-chatgpt_prompt = []
-for j in df['chatgpt_response']:
-    chatgpt_prompt.append(i)
+# chatgpt_prompt = []
+# for j in df['chatgpt_response']:
+#     chatgpt_prompt.append(i)
 
 def bleu(ref, gen):
     ''' 
@@ -131,8 +131,8 @@ def ter(ref, gen):
         total_score = total_score/len(gen)
     return total_score
 
-print("Jaccard score: ",sklearn.metrics.jaccard_score(answer_prompt, chatgpt_prompt))
-print("BLEU score: ",bleu(answer_prompt,chatgpt_prompt))
-print("Rouge score: ",rouge_n(answer_prompt,chatgpt_prompt))
-print("TER score: ",ter(answer_prompt,chatgpt_prompt))
+print("Jaccard score: ",sklearn.metrics.jaccard_score(df["response"], df["chatgpt_response"],average='macro'))
+print("BLEU score: ",bleu(df["response"], df["chatgpt_response"]))
+print("Rouge score: ",rouge_n(df["response"], df["chatgpt_response"]))
+print("TER score: ",ter(df["response"], df["chatgpt_response"]))
 
