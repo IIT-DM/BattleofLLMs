@@ -6,7 +6,7 @@ import itertools
 import pyter
 
 
-df = pd.read_csv('./QA-Comparision/DialFac.csv')
+df = pd.read_csv('./QA-Comparision/DialFact.csv')
 # df["answer_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["response"].astype(str)
 # df["chatgpt_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["chatgpt_response"].astype(str)
 # answer_prompt = []
