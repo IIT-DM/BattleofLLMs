@@ -6,16 +6,16 @@ import itertools
 import pyter
 
 
-df = pd.read_csv('./QA-Comparision/DialFact.csv')
+df = pd.read_csv('./QA-Comparision/CoDAH.csv')
 # df["answer_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["response"].astype(str)
 # df["chatgpt_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["chatgpt_response"].astype(str)
-# answer_prompt = []
-# for i in df['answer_prompt']:
-#     answer_prompt.append(i)
+answer_prompt = []
+for i in df['answer']:
+    answer_prompt.append(str(i))
 
-# chatgpt_prompt = []
-# for j in df['chatgpt_response']:
-#     chatgpt_prompt.append(i)
+chatgpt_prompt = []
+for j in df['new_output']:
+    chatgpt_prompt.append(str(i))
 
 def bleu(ref, gen):
     ''' 
@@ -35,8 +35,6 @@ def bleu(ref, gen):
     cc = SmoothingFunction()
     score_bleu = corpus_bleu(ref_bleu, gen_bleu, weights=(0, 1, 0, 0), smoothing_function=cc.method4)
     return score_bleu
-
-
 
 #supporting function
 def _split_into_words(sentences):
@@ -122,17 +120,18 @@ def ter(ref, gen):
     '''
     if len(ref) == 1:
         total_score =  pyter.ter(gen[0].split(), ref[0].split())
-        print('x')
+        # print('x')
     else:
         total_score = 0
         for i in range(len(gen)):
-            print(i)
+            # print(i)
             total_score = total_score + pyter.ter(gen[i].split(), ref[i].split())
         total_score = total_score/len(gen)
     return total_score
 
-print("Jaccard score: ",sklearn.metrics.jaccard_score(df["response"], df["chatgpt_response"],average='macro'))
-print("BLEU score: ",bleu(df["response"], df["chatgpt_response"]))
-print("Rouge score: ",rouge_n(df["response"], df["chatgpt_response"]))
-print("TER score: ",ter(df["response"], df["chatgpt_response"]))
-
+print("Jaccard score: ",sklearn.metrics.jaccard_score(answer_prompt, chatgpt_prompt,average='macro'))
+print("BLEU score: ",bleu(answer_prompt, chatgpt_prompt))
+print("Rouge score: ",rouge_n(answer_prompt, chatgpt_prompt))
+print("TER score: ",ter(answer_prompt, chatgpt_prompt))
+# print(len(df['answer']))
+# print(len(df['new_output']))
