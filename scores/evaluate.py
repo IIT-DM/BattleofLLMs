@@ -36,12 +36,10 @@ def bleu(ref, gen):
     score_bleu = corpus_bleu(ref_bleu, gen_bleu, weights=(0, 1, 0, 0), smoothing_function=cc.method4)
     return score_bleu
 
-#supporting function
 def _split_into_words(sentences):
   """Splits multiple sentences into words and flattens the result"""
   return list(itertools.chain(*[_.split(" ") for _ in sentences]))
 
-#supporting function
 def _get_word_ngrams(n, sentences):
   """Calculates word n-grams for multiple sentences.
   """
@@ -51,7 +49,6 @@ def _get_word_ngrams(n, sentences):
   words = _split_into_words(sentences)
   return _get_ngrams(n, words)
 
-#supporting function
 def _get_ngrams(n, text):
   """Calcualtes n-grams.
   Args:
@@ -108,7 +105,6 @@ def rouge_n(reference_sentences, evaluated_sentences, n=2):
 
   #just returning recall count in rouge, useful for our purpose
   return recall
-
 
 def ter(ref, gen):
     '''
