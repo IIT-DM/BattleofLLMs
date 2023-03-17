@@ -83,15 +83,15 @@ import pyter
 #         print("Rouge score: ",rouge_score)
 #         print("TER score: ", ter_score)
 
-df = pd.read_csv('./QA-Comparision/CoDAH.csv')
-# df["answer_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["response"].astype(str)
-# df["chatgpt_prompt"] = df["text"].astype(str) + " " + df["question"].astype(str) + " The answer is "+ df["chatgpt_response"].astype(str)
+df = pd.read_csv('./QA-Comparision/DialFact.csv')
+df["answer_prompt"] = df["text"].astype(str) +  " The answer is "+ df["response"].astype(str)
+df["chatgpt_prompt"] = df["text"].astype(str) + " The answer is "+ df["chatgpt_response"].astype(str)
 answer_prompt = []
-for i in df['answer']:
+for i in df['answer_prompt']:
     answer_prompt.append(str(i))
 
 chatgpt_prompt = []
-for j in df['new_output']:
+for j in df['chatgpt_prompt']:
     chatgpt_prompt.append(str(i))
 
 
@@ -103,6 +103,9 @@ for (i,j) in zip(answer_prompt,chatgpt_prompt):
     print(x)
     x_ap.append(x)
 
+
 import statistics
-y = statistics.mean(x_ap)
-print(y)
+row_average = [sum(sub_list) / len(sub_list) for sub_list in x_ap]
+print(statistics.mean(row_average))
+
+
