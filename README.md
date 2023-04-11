@@ -22,7 +22,7 @@ Welcome to our project on GitHub! We are thrilled to have you here, reading thro
 | QA Corpus Comparison. | Published(More corpus on the way) |
 | Golden ratio & NLI w.r.t to QA corpus. | Published(More on corpus corpus the way) |
 | Evaluation scores | Published |
-| Preprint. | Posting within a week |
+| Preprint. | [Link](https://arxiv.org/pdf/2304.03325.pdf) |
 |...|...|
 
 ## ChatGPT API
