@@ -1,51 +1,97 @@
-## ChatGPT-Crawler
+# ChatGPT-Crawler: Battle of LLM's
 
-![](https://img.shields.io/badge/Languages-%20English-red) 
-![](https://img.shields.io/badge/ChatGPT-Corpus%2C%20Detector-blue)
+Welcome to ChatGPT-Crawler, a project that evaluates the responses of various language models (LLMs) including ChatGPT-4, ChatGPT, Gemini, and Mistral. This project leverages conversational QA datasets from CoQA, DialFact, FaVIQ, and CoDAH for testing these LLMs, comparing their performance, and providing insights into their capabilities.
 
+## Table of Contents
 
-Welcome to our project on GitHub! We are thrilled to have you here, reading through our code and documentation. We hope that you find our project interesting and useful. We have put in a lot of effort to make the code readable, well-organized, and easy to understand. We believe that open-source projects like ours are an excellent way to share knowledge, build communities, and inspire new ideas. We welcome your contributions, feedback, and ideas. Thank you for your support and we look forward to your participation in this project.<br>
+- [Introduction](#introduction)
+- [Project Purpose](#project-purpose)
+- [Used Datasets](#used-datasets)
+- [Upcoming Benchmarks and Releases](#upcoming-benchmarks-and-releases)
+- [ChatGPT API Section](#chatgpt-api-section)
+- [Gemini Section](#gemini-section)
+- [Mistral Section](#mistral-section)
+- [Installation Guides](#installation-guides)
+- [Running Gemini LLM](#process-for-gemini-llm-running)
+- [Running Mistral LLM](#process-for-mistral-llm-running)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Introduction
 
-#### Purpose of the project is to evaluate the responses of ChatGPT.
+This project focuses on evaluating the responses of ChatGPT-4, ChatGPT, Gemini, and Mistral through the lens of conversational QA datasets from CoQA, DialFact, FaVIQ, and CoDAH. By comparing their performance, we aim to provide valuable insights into the strengths and weaknesses of each language model.
 
+## Project Purpose
 
+The primary purpose of this project is to:
 
+- Evaluate responses of different LLMs using conversational QA datasets.
+- Conduct a "Battle of LLMs" with datasets including CoQA, DialFact, FaVIQ, and CoDAH.
+- Provide a platform for testing and comparing LLMs' capabilities.
 
+## Used Datasets
 
+| Dataset | Description                                |
+|---------|--------------------------------------------|
+| CoQA    | Conversational Question Answering          |
+| DialFact| Dialogue-based Fact Verification           |
+| FaVIQ   | Facts and Verification in Questions        |
+| CoDAH   | Conversational Datasets Adversarial Hardness|
 
-### Upcoming Benchmarks and Releases:
+## Upcoming Benchmarks and Releases
 
-| Release               | Dates      |
-|-----------------------|------------|
-| ChatGPT API for bulk responses. | Published |
-| QA Corpus Comparison. | Published(More corpus on the way) |
-| Golden ratio & NLI w.r.t to QA corpus. | Published(More on corpus corpus the way) |
-| Evaluation scores | Published |
-| Preprint. | [Link](https://arxiv.org/pdf/2304.03325.pdf) |
-|...|...|
+Stay tuned for upcoming benchmarks and releases, including:
 
-## ChatGPT API
-This script automated the process of sending a query to ChatGPT and saving the response. Since the release of the Dec 15th version, ChatGPT has imposed an hourly limit per account. To solve this, the script took multiple accounts (it was found that the minimum is 4), rotated and exhausted the hourly limit of each account. In order to register an OpenAI account, an email and a phone number were required for verification. Note that it had to be a real phone number. Bummer! We tried to register accounts with Google Voice virtual phone numbers, but OpenAI recognized them as virtual numbers and would not let me register.  Check out installation guide [here](./chatGPT-crawler/README.md).
+- ChatGPT API for bulk responses.
+- QA Corpus Comparison.
+- Golden ratio & NLI with respect to QA corpus.
+- Evaluation scores.
+- Preprint publication.
 
+For more details, check out our [preprint](#) link.
 
+## ChatGPT API Section
 
----
+Our script automates the process of sending queries to ChatGPT, saving responses, and handling hourly limits per account. Refer to the installation guide [here](#) for detailed instructions on setting up your API key.
 
-### About Us
+## Gemini Section
 
-We are researchers from Illinois Institute of Technology working on various Natural Language Programming projects. Our team for these projects consists of PhD and Master students. <br>
+### Purpose
 
-|   |   |
-|:-:|:-:|
-| [Haoran Wang](https://github.com/wang2226/) | [Aman Rangapur](https://github.com/aman-17/) |
-|<img src="https://avatars.githubusercontent.com/u/21370476?v=4" alt="" width="40"/>|<img src="https://avatars.githubusercontent.com/u/44740048?v=4" alt="" width="40"/>|
+This section focuses on the Gemini language model.
 
+### Installation
 
+1. Clone the repository.
+2. Navigate to the `gemini` directory in the command line.
+3. Install requirements using the command: `pip install -r requirements.txt`.
+4. Install `google-generativeai` using: `pip install -q -U google-generativeai`.
+5. Obtain your API key.
+6. To run: `python <file_name.py>`.
 
+## Mistral Section
 
+### Purpose
 
+This section focuses on the Mistral language model.
 
+### Installation
 
+1. Clone the repository.
+2. Navigate to the `mistral` directory in the command line.
+3. Install requirements using the command: `pip install -r requirements.txt`.
+4. Upgrade transformers version using: `pip install transformers --upgrade` (requires version 4.36.1).
+5. To run: `python <file_name.py>`.
 
+## Usage Examples
 
+Examples of running Python code for different levels of prompting (0-shot, N-shot, and COT) are provided in each relevant directory.
+
+## Contributing
+
+We welcome contributions, feedback, and ideas from the community. Feel free to raise issues, propose enhancements, or submit pull requests. Together, let's make this project even better!
+
+## License
+
+[Insert License Information Here]
