@@ -100,22 +100,16 @@ This section focuses on the Mistral language model.
 
    ```bash
    cd mistral
-3. Install requirements using the command:
+3. Install requirements using the command: (requires version 4.36.1)
    
     ```bash
    pip install -r requirements.txt
-
-
 4. Upgrade transformers version using:
    ```bash
    pip install transformers --upgrade`
-(requires version 4.36.1)
-
 5. To run the python file in cmd:
    ```bash
    python <file_name.py>
-
-
 ## Usage Examples
 
 Examples of running Python code for different levels of prompting (0-shot, N-shot, and COT) are provided in each relevant directory.
