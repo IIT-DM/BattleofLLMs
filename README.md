@@ -67,7 +67,7 @@ This section focuses on the Gemini language model.
    
    ```bash
    git clone https://github.com/IIT-DM/BattleofLLMs.git
-2. Navigate to the `gemini` directory in the command line.
+2. Navigate to the [`gemini`](https://github.com/IIT-DM/BattleofLLMs/tree/main/gemini) directory in the command line.
 
    ```bash
    cd gemini
@@ -96,7 +96,7 @@ This section focuses on the Mistral language model.
    
    ```bash
    git clone https://github.com/IIT-DM/BattleofLLMs.git
-2. Navigate to the `mistral` directory in the command line.
+2. Navigate to the [`mistral`](https://github.com/IIT-DM/BattleofLLMs/tree/main/mistral   ) directory in the command line.
 
    ```bash
    cd mistral
