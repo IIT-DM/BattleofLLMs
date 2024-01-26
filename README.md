@@ -64,11 +64,25 @@ This section focuses on the Gemini language model.
 ### Installation
 
 1. Clone the repository.
+   
+   ```bash
+   git clone https://github.com/IIT-DM/BattleofLLMs.git
 2. Navigate to the `gemini` directory in the command line.
-3. Install requirements using the command: `pip install -r requirements.txt`.
-4. Install `google-generativeai` using: `pip install -q -U google-generativeai`.
-5. Obtain your API key.
-6. To run: `python <file_name.py>`.
+
+   ```bash
+   cd gemini
+3. Install requirements using the command:
+   
+    ```bash
+   pip install -r requirements.txt
+4. Install `google-generativeai` using:
+   
+    ```bash
+   pip install -q -U google-generativeai
+5. Obtain your API key by clicking on the key icon [🔑](https://makersuite.google.com/app/apikey)
+6. To run the python file in cmd:
+   ```bash
+   python <file_name.py>
 
 ## Mistral Section
 
@@ -79,10 +93,28 @@ This section focuses on the Mistral language model.
 ### Installation
 
 1. Clone the repository.
+   
+   ```bash
+   git clone https://github.com/IIT-DM/BattleofLLMs.git
 2. Navigate to the `mistral` directory in the command line.
-3. Install requirements using the command: `pip install -r requirements.txt`.
-4. Upgrade transformers version using: `pip install transformers --upgrade` (requires version 4.36.1).
-5. To run: `python <file_name.py>`.
+
+   ```bash
+   cd mistral
+3. Install requirements using the command:
+   
+    ```bash
+   pip install -r requirements.txt
+
+
+4. Upgrade transformers version using:
+   ```bash
+   pip install transformers --upgrade`
+(requires version 4.36.1)
+
+5. To run the python file in cmd:
+   ```bash
+   python <file_name.py>
+
 
 ## Usage Examples
 
