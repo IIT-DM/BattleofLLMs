@@ -45,8 +45,6 @@ You can use ChatGPT on this website [ChatGPT](https://chat.openai.com/) and gain
 
 ## Gemini 
 
-### Purpose
-
 Gemini stands out as an influential tool in the realm of text and image processing, showcasing its prowess through the seamless integration of multimodal prompting. In the domain of text processing, it exhibits the ability to craft imaginative and inventive responses, spanning a spectrum from compelling narratives to evocative poetry. Its versatility extends to image processing, where it empowers users to generate personalized artwork and conceptual visualizations by translating text prompts into captivating visual representations.
 
 The unique strength of Gemini lies in its capacity to synergize these diverse capabilities, enabling it to tackle intricate tasks with remarkable finesse. Notably, it excels in tasks that demand the harmonious fusion of textual and visual elements, such as the generation of cohesive stories interweaving both mediums or the provision of vivid and articulate captions for images.
@@ -78,9 +76,11 @@ For a more in-depth exploration of Gemini and its myriad capabilities, enthusias
 
 ## Mistral 
 
-### Purpose
+Mistral AI has introduced powerful open generative models tailored for developers, offering efficient deployment and customization options for production environments. The beta access to their initial platform services includes three chat endpoints for text generation based on instructions and an embedding endpoint, each offering distinct performance/price tradeoffs.
 
-This section focuses on the Mistral language model.
+The generative endpoints, Mistral-tiny and Mistral-small, utilize Mistral AI's released open models, while Mistral-medium employs a prototype model with enhanced performance, currently being tested in a live setting. The models are instructed versions incorporating effective alignment techniques, such as efficient fine-tuning and direct preference optimization, and are pre-trained on data from the open web.
+
+Mistral-tiny, the most cost-effective option, currently serves Mistral 7B Instruct v0.2 with a score of 7.6 on MT-Bench, exclusively supporting English. Mistral-small features the latest model, Mixtral 8x7B, excelling in multiple languages and code with a notable score of 8.3 on MT-Bench. Mistral-medium, the highest-quality endpoint, deploys a prototype model achieving an impressive 8.6 on MT-Bench across various languages and code. A performance comparison table is provided, showcasing Mistral-medium against Mistral-small and a competitor's endpoint.
 
 ### Installation
 
