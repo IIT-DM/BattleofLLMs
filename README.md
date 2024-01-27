@@ -7,16 +7,12 @@ Welcome to Battle of LLM's, a project that evaluates the responses of various la
 - [Introduction](#introduction)
 - [Project Purpose](#project-purpose)
 - [Used Datasets](#used-datasets)
-- [Upcoming Benchmarks and Releases](#upcoming-benchmarks-and-releases)
-- [ChatGPT API Section](#chatgpt-api-section)
-- [Gemini Section](#gemini-section)
-- [Mistral Section](#mistral-section)
-- [Installation Guides](#installation-guides)
-- [Running Gemini LLM](#process-for-gemini-llm-running)
-- [Running Mistral LLM](#process-for-mistral-llm-running)
+- [ChatGPT](#chatgpt)
+- [Gemini](#gemini)
+- [Mistral](#mistral)
 - [Usage Examples](#usage-examples)
+- [About Us](#about-us)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -39,23 +35,12 @@ The primary purpose of this project is to:
 | FaVIQ   | Facts and Verification in Questions        |
 | CoDAH   | Conversational Datasets Adversarial Hardness|
 
-## Upcoming Benchmarks and Releases
 
-Stay tuned for upcoming benchmarks and releases, including:
-
-- ChatGPT API for bulk responses.
-- QA Corpus Comparison.
-- Golden ratio & NLI with respect to QA corpus.
-- Evaluation scores.
-- Preprint publication.
-
-For more details, check out our [preprint](#) link.
-
-## ChatGPT API Section
+## ChatGPT 
 
 Our script automates the process of sending queries to ChatGPT, saving responses, and handling hourly limits per account. Refer to the installation guide [here](#) for detailed instructions on setting up your API key.
 
-## Gemini Section
+## Gemini 
 
 ### Purpose
 
@@ -84,7 +69,7 @@ This section focuses on the Gemini language model.
    ```bash
    python <file_name.py>
 
-## Mistral Section
+## Mistral 
 
 ### Purpose
 
@@ -114,10 +99,19 @@ This section focuses on the Mistral language model.
 
 Examples of running Python code for different levels of prompting (0-shot, N-shot, and COT) are provided in each relevant directory.
 
+
+## About Us
+
+We are a passionate team comprised of Aman Rangapur, Aryan Rangapur, and Jayanth Tunk. Our collective dedication lies in exploring the capabilities of language models and advancing the field of natural language processing. This project is fueled by our shared interest in understanding how different LLMs perform in conversational question-answering scenarios. Embracing the power of open-source collaboration, we welcome contributions from the community to enrich and enhance our project. Feel free to reach out to us with any questions or ideas – we look forward to building a vibrant community around this initiative.
+
+
+| <img src="https://avatars.githubusercontent.com/u/44740048?v=4" width="100" height="100" alt="Aman Photo"/>   |   Aman Rangapur      |
+|----------------------------------------------------------------------------------------------------------------|----------------------|
+| <img src="https://avatars.githubusercontent.com/u/74298261?v=4" width="100" height="100" alt="Jayanth Photo"/> | **Jayanth Tunk**         |
+| <img src="https://avatars.githubusercontent.com/u/154872205?v=4" width="100" height="100" alt="Aryan Photo"/>   | **Aryan Rangapur**     |
+
+
 ## Contributing
 
 We welcome contributions, feedback, and ideas from the community. Feel free to raise issues, propose enhancements, or submit pull requests. Together, let's make this project even better!
 
-## License
-
-[Insert License Information Here]
