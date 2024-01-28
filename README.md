@@ -104,7 +104,18 @@ Mistral-tiny, the most cost-effective option, currently serves Mistral 7B Instru
    python <file_name.py>
 ## Usage Examples
 
-Examples of running Python code for different levels of prompting (0-shot, N-shot, and COT) are provided in each relevant directory.
+Examples of running Python code for different levels of prompting (0-shot, N-shot, and CoT) are provided in each relevant directory.
+To effectively demonstrate the capabilities of the language models, we have provided usage examples for different levels of prompting, including 0-shot, N-shot, and CoT (Chain of Thought). Each example is designed to showcase the models' responses in various scenarios.
+
+### _0-Shot Prompting_
+
+In the 0-shot scenario, the models are provided with a single prompt without any prior training or context. This is a test of the models' ability to generate relevant responses based solely on the given input.
+
+### _N-Shot Prompting_
+The N-shot examples involve providing the models with a context or set of examples before posing the main question. This allows the models to leverage the provided information for a more informed response.
+
+### _Chain of Thought (CoT)_
+Chain of Thought is a purposefully designed sequence of prompts aimed at directing the output of a language model. It involves constructing a logical progression of inputs to shape the model's responses in a controlled manner, with the goal of achieving specific outcomes or generating coherent narratives. This approach guides the language model's behavior, ensuring the production of contextually relevant and desired responses.
 
 
 ## About Us
