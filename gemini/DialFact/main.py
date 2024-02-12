@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 df = pd.read_csv('data.csv')
 
-genai.configure(api_key="AIzaSyCjkTFytQ0j1Ff_6klCLIidMuxG5g_Xm4A") # get api key from: https://makersuite.google.com/app/apikey
+genai.configure(api_key="<YOUR_API_KEY>") # get api key from: https://makersuite.google.com/app/apikey
 
 model = genai.GenerativeModel('gemini-pro')
 
