@@ -31,9 +31,9 @@ The primary purpose of this project is to:
 | Dataset | Description                                |
 |---------|--------------------------------------------|
 | [CoQA](https://arxiv.org/abs/1808.07042)    | Conversational Question Answering          |
-| DialFact| Dialogue-based Fact Verification           |
-| FaVIQ   | Facts and Verification in Questions        |
-| CoDAH   | Conversational Datasets Adversarial Hardness|
+| [DialFact](https://arxiv.org/abs/2110.08222)| Dialogue-based Fact Verification           |
+| [FaVIQ](https://arxiv.org/abs/2107.02153)   | Facts and Verification in Questions        |
+| [CoDAH](https://arxiv.org/abs/1904.04365)   | Conversational Datasets Adversarial Hardness|
 
 
 ## ChatGPT 
