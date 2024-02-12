@@ -127,7 +127,7 @@ We are a passionate team comprised of Aman Rangapur, Aryan Rangapur, and Jayanth
 
 | <img src="https://avatars.githubusercontent.com/u/154872205?v=4" width="100" height="100" alt="Aryan Photo"/>   | [Aryan Rangapur](https://github.com/aryanrangapur)    | <img src="https://avatars.githubusercontent.com/u/74298261?v=4" width="100" height="100" alt="Jayanth Photo"/> | [Jayanth Tunk](https://github.com/JayanthTunk)  
 |----------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|--------------------|
-<img src="https://avatars.githubusercontent.com/u/44740048?v=4" width="100" height="100" alt="Aman Photo"/>   |   [**Aman Rangapur**](https://github.com/aman-17) 
+<img src="https://avatars.githubusercontent.com/u/44740048?v=4" width="100" height="100" alt="Aman Photo"/>   |   [**Aman Rangapur**](https://github.com/aman-17) |<img src="https://avatars.githubusercontent.com/u/21370476?v=4" alt="pic" width="100" height="100"/>  | [**Haoran Wang**](https://github.com/wang2226/)
 
 
 
