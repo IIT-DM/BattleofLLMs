@@ -70,7 +70,8 @@ For a more in-depth exploration of Gemini and its myriad capabilities, enthusias
     ```bash
    pip install -q -U google-generativeai
 5. Obtain your API key by clicking on the key icon [🔑](https://makersuite.google.com/app/apikey)
-6. To run the python file in cmd:
+6. Navigate to one of the four folders named after QA Datasets. Choose the one you want to run.
+7. To run the python file in cmd:
    ```bash
    python <file_name.py>
 
@@ -99,7 +100,9 @@ Mistral-tiny, the most cost-effective option, currently serves Mistral 7B Instru
 4. Upgrade transformers version using:
    ```bash
    pip install transformers --upgrade`
-5. To run the python file in cmd:
+   
+5. Navigate to one of the four folders named after QA Datasets. Choose the one you want to run.   
+6. To run the python file in cmd:
    ```bash
    python <file_name.py>
 ## Usage Examples
