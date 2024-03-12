@@ -105,6 +105,31 @@ Mistral-tiny, the most cost-effective option, currently serves Mistral 7B Instru
 6. To run the python file in cmd:
    ```bash
    python <file_name.py>
+## Claude 
+
+<ABOUT CLAUDE>
+
+### Installation
+
+1. Clone the repository.
+   
+   ```bash
+   git clone https://github.com/IIT-DM/BattleofLLMs.git
+2. Navigate to the [`gemini`](https://github.com/IIT-DM/BattleofLLMs/tree/main/claude) directory in the command line.
+
+   ```bash
+   cd claude
+3. Install requirements using the command:
+   
+    ```bash
+   pip install -r requirements.txt
+
+5. Obtain your API key by clicking on the key icon [🔑](https://console.anthropic.com/settings/keys)
+6. Navigate to one of the four folders named after QA Datasets. Choose the one you want to run.
+7. To run the python file in cmd:
+   ```bash
+   python <file_name.py>
+
 ## Usage Examples
 
 Examples of running Python code for different levels of prompting (0-shot, N-shot, and CoT) are provided in each relevant directory.
