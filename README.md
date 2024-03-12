@@ -10,6 +10,7 @@ Welcome to Battle of LLMs, a project that evaluates the responses of various lan
 - [ChatGPT](#chatgpt)
 - [Gemini](#gemini)
 - [Mistral](#mistral)
+- [Claude](#claude)
 - [Usage Examples](#usage-examples)
 - [About Us](#about-us)
 - [Contributing](#contributing)
