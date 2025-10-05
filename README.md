@@ -2,6 +2,7 @@
 
 Welcome to Battle of LLMs, a project that evaluates the responses of various language models (LLMs) including ChatGPT-4, ChatGPT, Gemini, and Mistral. This project leverages conversational QA datasets from CoQA, DialFact, FaVIQ, and CoDAH for testing these LLMs, comparing their performance, and providing insights into their capabilities.
 
+**PAPER: https://arxiv.org/abs/2405.18344**
 ## Table of Contents
 
 - [Introduction](#introduction)
